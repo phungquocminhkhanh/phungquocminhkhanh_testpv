@@ -10,7 +10,7 @@
 - Sau khi update xong tìm đến file .env.example đổi thành .env
 - Tạo key dự án bằng lệnh : "php artisan key:generate"
 - Mở trình quản lý mysql : mà tạo database mới, xong import file "test_pv.sql" đã có trong thư mục dự án
-- Để chạy dự án gõ lệnh : "php artisan serve"
+
 
 
 ## Điều chỉnh lại code
@@ -32,4 +32,10 @@
 	        //return $this->hasher->check($plain, $user->getAuthPassword());
 	    }
 
+## Hướng dẫn sử dụng
+- Để chạy dự án gõ lệnh : "php artisan serve"  và nhận được kết quả "http://127.0.0.1:8000/"
+- Có 2 đường dẫn chính là trang chủ và trang quản lý:
+	+ Trang chủ : http://127.0.0.1:8000/
 
+	+ Trang quản lý : http://127.0.0.1:8000/admin  
+		Tài khoản admin :  admin  123456  
