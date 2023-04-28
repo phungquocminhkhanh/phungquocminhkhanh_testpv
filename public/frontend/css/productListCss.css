@@ -1,0 +1,308 @@
+/* =============================================================================================== */
+/*                                           PAGE BANNER                                           */
+/* =============================================================================================== */
+.link-page .item-list-element .name-link {
+    color: #757757;
+    font-weight: 600;
+}
+
+.link-page .item-list-element:not(:last-child) .item:after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*font-size: 1rem;*/
+    position: relative;
+    content: '/';
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 400;
+    overflow: hidden;
+    speak: none;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.page-title-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.page-main .page-title-wrapper h1.page-title {
+    margin: 0 0 0.75em;
+    text-align: center;
+    font-weight: 700;
+    color: #575757;
+}
+
+.page-view {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.page-description {
+    text-align: center;
+    flex: 0 0 100%;
+    color: #757575;
+}
+
+/* ============================ SHOP PAGE AREA ============================ */
+.shop-page-area {
+    padding: 100px 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~ SIDE BAR ~~~~~~~~~~~~~~~~~ */
+.wrapper-1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+    padding: 30px 32px 40px;
+    margin-bottom: 50px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.col-group-sidebar {
+    padding-bottom: 50px;
+}
+
+.col-group-sidebar .wrapper-1 {
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.item-title.sidebar-item-title {
+    margin-bottom: 30px;
+}
+
+/* seach box */
+.box-search form {
+    position: relative;
+}
+
+.box-search form input {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 0;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    height: 50px;
+    margin-bottom: 0;
+    padding: 2px 60px 2px 20px;
+    width: 100%;
+}
+
+.box-search form button {
+    background-color: transparent;
+    border: medium none;
+    color: #666666;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0px;
+    transition: all .3s ease 0s;
+    top: 0;
+    cursor: pointer;
+}
+
+.box-search img.icon.icon-search {
+    max-width: 15px;
+}
+
+/* product catefories */
+.list-1 li {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    list-style: none;
+    line-height: 2.14286em;
+}
+
+.list-1 li a.active {
+    font-weight: 500 !important;
+}
+
+
+.list-1 li a {
+    color: #9F9F9F;
+    text-transform: capitalize;
+}
+
+.list-1 li:hover >a {
+    color: #AB6E35;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ RIGHT TOPBAR ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.furniture-shop-topbar {
+    /*margin-bottom: 25px;*/
+    clear: both;
+}
+
+.furniture-shop-topbar .products-result-count {
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #9F9F9F;
+    float: left;
+}
+
+/* form top bar */
+.furniture-shop-topbar .form-topbar {
+    float: right;
+}
+
+.furniture-shop-topbar .form-topbar {
+    margin: 0 0 1em;
+    vertical-align: top;
+}
+
+.furniture-shop-topbar .form-topbar label {
+    color: #9F9F9F;
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.furniture-shop-topbar .form-topbar select {
+    border: none;
+    color: #9F9F9F;
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 15px;
+    max-width: 170px;
+    min-height: auto;
+    cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~~~~~~~ PRODUCT LIST ~~~~~~~~~~~~~~~~~~ */
+.shop-main-column-right .furniture-shop-product-list ol {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ PAGINATION ~~~~~~~~~~~~~~~~~~~ */
+.pagination-1 ul {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0;
+    clear: both;
+    margin: 1px;
+}
+
+.pagination-1 ul li {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.pagination-1 ul li+li {
+    margin-left: 10px;
+}
+
+.pagination-1 ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    text-align: center;
+    background: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #C4C4C4;
+    color: #9F9F9F;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.pagination-1 ul li a.go-to-fist,
+.pagination-1 ul li a.go-to-last {
+    border: 0;
+}
+
+.pagination-1 ul li a i {
+    color: #9F9F9F;
+    line-height: 39px;
+}
+
+.pagination-1 ul li a.current,
+.pagination-1 ul li a:hover,
+.pagination-1 ul li a:focus {
+    border: 1px solid #C4C4C4;
+    background: #ebe9eb;
+    color: #8a7e88;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ NO PRODUCT ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.no-product {
+    text-align: center;
+    margin: 8rem auto;
+}
+
+.no-product h3 {
+    font-weight: 500;
+    color: #9f9f9f;
+}
+/* ================================================================================================ */
+/*                                            RESPONSIVE                                            */
+/* ================================================================================================ */
+@media only screen and (max-width: 575px) {
+    .furniture-shop-topbar {
+        text-align: center;
+    }
+
+    .furniture-shop-topbar-item {
+        float: none !important;
+        padding-bottom: .8rem;
+    }
+
+}
+
+/* sm Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* md Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* PAGE BANNER */
+    .page-banner {
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid #eee;
+        /*max-width: 1440px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;*/
+    }
+
+    .page-main>.page-title-wrapper .page-title {
+        display: inline-block;
+    }
+
+    .page-description {
+        flex: 0 0 61.8%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* lg Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/* xl Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,61 @@
+.elementor-section-wrap.login-page, 
+.elementor-section-wrap.register-page {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+#register, #login {
+	margin: 0 auto;
+}
+
+#register a:hover, #login a:hover {
+	text-decoration: underline;
+    font-weight: 500;
+}
+
+form#formRegister, #formLogin {
+    padding: 2rem;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+p.tologin, p.toregister {
+    margin-top: 1rem;
+}
+
+#register .btn-1, #login .btn-1 {
+    margin-top: 1rem;
+    height: 45px;
+}
+
+/* LOGIN */
+p.forgot-passw, p.toregister {
+    display: inline-block;
+    margin-top: 0;
+}
+
+p.toregister {
+    float: right;
+}
+
+#err_login {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* ==================================================================================== */
+/*                                      RESPONSIVE                                      */
+/* ==================================================================================== */
+@media only screen and (max-width: 575px) {
+    p.toregister {
+        float: none;
+    }
+
+    p.forgot-passw, p.toregister {
+        display: block;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+
+}

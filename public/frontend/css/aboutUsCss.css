@@ -1,0 +1,122 @@
+.aboutus-section-wrapper {
+    background-image: url(https://img.freepik.com/free-photo/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering_41470-1778.jpg?w=2000);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 218px 0px 218px 0px;
+}
+
+.aboutus-title-content-inner {
+    padding: 1rem;
+}
+
+.aboutus-welcome-wrap {
+    margin-bottom: 1.2rem;
+}
+
+h2.aboutus-welcome.title {
+    line-height: 45px;
+    font-size: 1.8rem;
+}
+
+/* ABOUT US DESCRIPTION */
+.aboutus-content-inner {
+    margin-top: 180px;
+    margin-bottom: 150px;
+}
+
+.aboutus-desciption-img {
+    max-width: 855px;
+    margin: 0 auto;
+}
+
+.aboutus-description-content-wrap {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 60px 15px 60px 135px; 
+}
+
+.aboutus-description.reverse .aboutus-description-content-wrap {
+    padding: 60px 135px 60px 15px;  
+    text-align: right;
+    /*justify-content: flex-end; */
+}
+h3.title.aboutus-description-title {
+    color: #181818;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    /*letter-spacing: -1px;*/
+    margin: 0 0 1.5rem 0;
+}
+
+p.aboutus-description {
+    line-height: 36px;
+}
+
+/* ==================================================================================== */
+/*                                      RESPONSIVE                                      */
+/* ==================================================================================== */
+@media only screen and (max-width: 575.99px) {
+    .aboutus-section-wrapper {
+        background-position: center center;
+        padding: 10px 0 !important;
+    }
+
+    .aboutus-welcome-wrap {
+        margin-bottom: 0.5rem !important;
+    }
+
+    h2.aboutus-welcome.title {
+        font-size: 1rem !important;
+        line-height: 23px !important;
+    }
+    
+    .aboutus-link-wrap {
+        font-size: .7rem !important;
+    }
+}
+
+/* sm Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+@media only screen and (max-width: 767.99px) {
+    .aboutus-section-wrapper {
+        background-position: center center;
+        padding: 50px 0;
+    }
+}
+
+/* md Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .aboutus-section-wrapper {
+        background-position: center center;
+        padding: 100px 0;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* lg Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .aboutus-section-wrapper {
+        background-position: center left;
+        padding: 218px 0px 218px 0px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/* xl Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

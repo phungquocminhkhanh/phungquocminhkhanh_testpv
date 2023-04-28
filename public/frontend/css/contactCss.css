@@ -1,0 +1,78 @@
+.contact-page {
+    padding: 3rem 0;
+}
+
+.map-address iframe {
+    max-width: 100%;
+}
+
+.contact-wrap {
+}
+
+.contact-info, .send-feedback {
+    padding: 2rem;
+    margin-top: 4rem;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+}
+
+.contact-info {
+    /*box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);*/
+}
+
+.send-feedback {
+    /*box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);*/
+}
+
+h4.contact-info-title, h4.feedback-title {
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+li.item.item-info-contact {
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+li.item.item-info-contact a{
+    color: #373737;
+}
+/* ================================================================================================ */
+/*                                            RESPONSIVE                                            */
+/* ================================================================================================ */
+@media only screen and (max-width: 575px) {
+
+}
+
+/* sm Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+@media only screen and (max-width: 767.99px) {
+
+
+}
+
+/* md Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* lg Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/* xl Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
