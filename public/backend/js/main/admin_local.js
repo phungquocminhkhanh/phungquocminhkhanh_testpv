@@ -1,4 +1,4 @@
-//const urlapi = "http://192.168.100.21/muaban_pos/api/";
+
 const urlapi = $("#urlapi").val();; //udn khi up host
 const urlserver = ""; //udn khi up host
 

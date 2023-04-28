@@ -1,5 +1,4 @@
 var _id_customer="";
-var urlapi=urlapi;
 function edit_customer(id)
 {
     $.ajax({

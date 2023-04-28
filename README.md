@@ -6,7 +6,7 @@
 ## Hướng dẫn cài đặt
 - Bạn cần cày đặt Composer, xampp, Git Bash
 - Đầu tiên clone dự án từ github về máy (https://github.com/phungquocminhkhanh/phungquocminhkhanh_testpv.git)
-- Chọn thư mục dự án vừa clone về và chạy git bash, tiền hành update composer và package bằng lệnh : "composer update"
+- Chọn thư mục dự án vừa clone về và chạy git bash, tiến hành update composer và package bằng lệnh : "composer update"
 - Sau khi update xong tìm đến file .env.example đổi thành .env
 - Tạo key dự án bằng lệnh : "php artisan key:generate"
 - Mở trình quản lý mysql : mà tạo database mới, xong import file "test_pv.sql" đã có trong thư mục dự án

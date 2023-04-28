@@ -25,15 +25,7 @@
                                
                             </ul>
 
-                            <ul class="nav nav-tabs tab-border-top-danger">
-                                <div class="form-group col-md-2">
-                                    <label for="inputState">Trạng thái</label><br />
-                                    <select onchange="show_blog(1)" id="status_filter" style="height:40px;width: 150px;">
-                                        <option value="1">Hoạt động</option>
-                                        <option value="2">Không hoạt độn</option>
-                                    </select>
-                                </div>
-                            </ul>
+                           
                             <div class="tab-content">
 
                                 <div class="input-group" id="report-total">
