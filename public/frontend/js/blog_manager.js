@@ -96,13 +96,13 @@ function delete_blog(id_blog)
                 success: function (data) {
                     if(data.success=="true")
                     {
-                        alert(data.message);
-                        show_blog(1);
+                        demo.showNotification(data.message);
+                        list_manager_blog();
                        
                     }
                     else
                     {
-                        alert(data.message);
+                         demo.showNotification(data.message);
                     }
                 }
           });
